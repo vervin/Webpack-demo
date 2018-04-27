@@ -1,6 +1,4 @@
-let array = [1,2,3,4,5]
+import './css/style.css';
+import './less/style.less';
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    console.log(element)
-}
+console.log('这里是打包文件入口-index.jd')
